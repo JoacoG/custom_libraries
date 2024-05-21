@@ -1,0 +1,24 @@
+{
+    "name" : "Pantalla",
+    "version" : "1.0.0",
+    "frameworks": "arduino",
+    "platforms": [
+      "espressif32"
+    ],    
+    "dependencies" : [
+        {
+            "name" : "bodmer/TFT_eSPI",
+            "version" : "^2.5.43",
+            "platforms" :  [
+                "espressif32"
+            ]
+        },
+        {
+            "name" : "bitbank2/AnimatedGIF",
+            "version" : "^2.1.0",
+            "platforms" :  [
+                "espressif32"
+            ]
+        }
+    ]
+}
